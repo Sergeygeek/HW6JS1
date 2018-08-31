@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Корзина</title>
+</head>
+<body>
+  <div id="goods">
+    <div class="good">
+      <img src="image/magichouse.jpg" alt=""><span>Цена 2500 руб.</span>
+      <button data-price="2500" data-name="Игровой дом" data-action="buy">Купить</button>
+      <button data-price="2500" data-name="Игровой дом" data-action="del">Удалить</button>
+    </div>
+    <div class="good">
+      <img src="image/pegperego.jpg" alt=""><span>Цена 15000 руб.</span>
+      <button data-price="15000" data-name="Коляска" data-action="buy">Купить</button>
+      <button data-price="15000" data-name="Коляска" data-action="del">Удалить</button>
+    </div>
+    <div class="good">
+      <img src="image/playpen.jpg" alt=""><span>Цена 1500 руб.</span>
+      <button data-price="1500" data-name="Манеж" data-action="buy">Купить</button>
+      <button data-price="1500" data-name="Манеж" data-action="del">Удалить</button>
+    </div>
+    <button id="clear">Очистить корзину</button>
+  </div>
+  <div id="cart">
+    <h3>Количество товара:</h3>
+    <span id="cart-count">0</span>
+    <h3>Общая стоимость:</h3>
+    <span id="cart-total">0</span>
+  </div>
+  <script src="cart.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
